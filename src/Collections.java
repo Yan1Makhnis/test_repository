@@ -9,7 +9,7 @@ public class Collections {
         for (int i = 0; i < 12; i++) {
             Random random = new Random();
             Student student = new Student();
-            student.setName("Ivan");
+            student.setName("Mary");
             student.setAge(random.nextInt(17,21));
             studentList.add(student);
         }
