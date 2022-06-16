@@ -6,7 +6,7 @@ public class Collections {
     public static void main(String[] args) {
         List<Student> studentList = new ArrayList<>();
 
-        for (int i = 0; i < 11; i++) {
+        for (int i = 0; i < 12; i++) {
             Random random = new Random();
             Student student = new Student();
             student.setName("Ivan");
